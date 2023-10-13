@@ -1,0 +1,299 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+*{
+    font-family: Roboto;
+}
+.LandingPage{
+}
+
+.header{
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.a3{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.landing{
+    font-weight: 900;
+    font-size: 28px;
+    color: #37447E;
+}
+
+.header3A{
+    display: flex;
+    gap: 60px;
+}
+
+.background1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.BuyButton{
+    width: 160px;
+    height: 26px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #111B47;
+    color: white;
+    border-radius: 5px;
+}
+
+.introH1{
+    width: 539px;
+    height: 132px;
+    font-weight: 500;
+    font-size: 50px;
+    color: #091133;
+    
+}
+
+.introp{
+    width: 539px;
+    height: 164px;
+    color: #505F98;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.kit{
+    width: 189px;
+    height: 36px;
+    background-color: #111B47;
+    color: white;
+    border-radius: 5px;
+}
+
+.learn{
+    width: 189px;
+    height: 36px;
+    border-color: #111B47;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.introbut{
+    padding-top: 74px;
+}
+
+.introduce{
+    padding-top: 352px;
+    padding-left: 164px;
+}
+
+.background2{
+    position: absolute;
+    right: 165px;
+    z-index: -1;
+}
+
+.so1{
+    height: 1110px;
+}
+
+.so2{
+    height: 742px;
+}
+
+.so2introH1{
+    width: 540px;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #091133;
+}
+
+.so2introp{
+    width: 540px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+}
+
+.title1header{
+    width: 255px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.title1para{
+    width: 255px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.haiCaiBenDuoi{
+    display: flex;
+    padding-top: 80px;
+}
+
+.so2introduce{
+    padding-left: 165px;
+}
+
+.background3{
+    padding-left: 191px;
+    position: absolute;
+    z-index: -1;
+}
+
+.so3header{
+    width: 445px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #091133;
+}
+
+.so3para{
+    width: 445px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6F7CB2;
+}
+
+.so3introduce{
+    display: flex;
+    justify-content: end;
+    margin-right: 169px;
+    /* margin-top: 172px; */
+}
+
+.so4introduce{
+    display: flex;
+    justify-content: end;
+    margin-right: 169px;
+}
+
+.so5introduce{
+    display: flex;
+    justify-content: end;
+    margin-right: 169px;
+}
+
+.so5but{
+    width: 150px;
+    height: 32px;
+    background-color: #111B47;
+    color: white;
+}
+
+.so3{
+    height: 585px;
+}
+
+.so4{
+    height: 585px;
+}
+
+.so5{
+    height: 500px;
+}
+
+.background4{
+    padding-left: 191px;
+    position: absolute;
+    z-index: -1;
+    /* margin-top: 660px; */
+}
+
+.background5{
+    padding-left: 191px;
+    position: absolute;
+    z-index: -1;
+    /* margin-top: 1280px; */
+}
+
+.daiVCL{
+    width: 100%;
+}
+
+.price{
+    height: 804px;
+}
+
+.priceBackground{
+    position: absolute;
+    z-index: -1;
+    margin-top: -200px;
+}
+
+.priceHeader{
+    width: 600px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #091133;
+    text-align: center;
+}
+
+.pricePara{
+    width: 600px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6F7CB2;
+    text-align: center;
+}
+
+.pricePricing{
+    width: 350px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #222F65;
+    text-align: center;
+}
+
+.priceKit{
+    width: 350px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #37447E;
+    text-align: center;
+}
+
+.priceSee{
+    width: 350px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5D6970;
+    text-align: center;
+}
+
+.priceBut{
+    width: 190px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #111B47;
+    color: white;
+}
+
+.priceInfo{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    margin-top: 237px;
+}
+
+
+
